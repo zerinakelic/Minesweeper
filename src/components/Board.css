@@ -1,0 +1,17 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    color: gainsboro;
+    margin: auto;
+}
+
+.top-button {
+    margin: 10px;
+    width: 150px;
+    height: 60px;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid white;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke;
+    color: white;
+}
+
+.App {
+    text-align: center;
+}
+
+.aligned {
+    display: flex;
+    margin: 40px auto;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 1px rgb(154, 255, 255);
+    margin: 0px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.center {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 5px;
+    background-color: #036691;
+    box-shadow: 15px 12px 8px 0 rgba(2, 75, 107, 0.5), 0 6px 20px 0 rgba(2, 75, 107, 0.5);
+}
+
+@media only screen and (max-width: 800px) {
+    .center {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 5px;
+        background-color: #036691;
+        box-shadow: 15px 12px 8px 0 rgba(2, 75, 107, 0.5), 0 6px 20px 0 rgba(2, 75, 107, 0.5);
+    }
+}
+

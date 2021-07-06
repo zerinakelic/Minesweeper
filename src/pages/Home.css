@@ -1,0 +1,54 @@
+.flex-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    margin: 20px;
+    height: 35px;
+    text-align: center;
+}
+
+.play-button {
+    margin: 10px;
+    width: 150px;
+    height: 60px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.centerHome {
+    padding: 40px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: #036691;
+    box-shadow: 15px 12px 8px 0 rgba(2, 75, 107, 0.5), 0 6px 20px 0 rgba(2, 75, 107, 0.5);
+
+}
+@media only screen and (max-width: 900px) {
+    .centerHome {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 90%;
+        padding: 5px;
+        background-color: #036691;
+        box-shadow: 15px 12px 8px 0 rgba(2, 75, 107, 0.5), 0 6px 20px 0 rgba(2, 75, 107, 0.5);
+    }
+}
